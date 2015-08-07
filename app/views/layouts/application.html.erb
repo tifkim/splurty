@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Boss Quotes</title>
+  <title>Boss Says What</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="col-xs-4 slogan">
-      Notable quotes from people who hustle
+      Notable quotes from people who hustled
     </div>
     <div class="col-xs-5">
       <%= link_to 'Contribute', '#' %>
@@ -30,7 +30,20 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        <%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Proudly made by <a href="http://tifkim.com">Tiff</a>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
