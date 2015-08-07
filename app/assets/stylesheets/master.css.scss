@@ -13,7 +13,7 @@
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -23,6 +23,10 @@
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
+  padding-top: 30px;
+  font-size: 18px;
+}
+.links {
   padding-top: 26px;
 }
 .links a {
@@ -67,6 +71,7 @@ h2 span {
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
+
 @media (max-width: 750px) {
   .footer-blurb {
     text-align: left;
